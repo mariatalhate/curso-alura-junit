@@ -2,9 +2,18 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Calculadora calc = new Calculadora();
+		int soma = calc.somar(3, 7);
+		System.out.println(soma);
 		
-	}
+		soma = calc.somar(3, 0);
+		System.out.println(soma);
+		
+		soma = calc.somar(0, 0);
+		System.out.println(soma);
+		
+		soma = calc.somar(3, -1);
+		System.out.println(soma);
+}
 
 }
