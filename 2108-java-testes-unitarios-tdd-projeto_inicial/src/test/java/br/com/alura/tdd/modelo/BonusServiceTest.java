@@ -1,4 +1,4 @@
-package br.com.alura.tdd.service;
+package br.com.alura.tdd.modelo;
 import static org.junit.jupiter.api.Assertions.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
